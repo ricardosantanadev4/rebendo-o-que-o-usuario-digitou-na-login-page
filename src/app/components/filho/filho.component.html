@@ -1,0 +1,11 @@
+<div class="form-group">
+    <label>User Name</label>
+    <!-- os atributos id e name sao necessarios no angular, mais o que vai ser utilizado e o ngModel -->
+    <input [(ngModel)]="login.user" id="loginUser" name="loginUser" type="text" class="form-control"
+        placeholder="User Name">
+</div>
+<div class="form-group">
+    <label>Password</label>
+    <input [(ngModel)]="login.password" id="loginPassword" name="loginPassword" type="password" class="form-control"
+        placeholder="Password">
+</div>
